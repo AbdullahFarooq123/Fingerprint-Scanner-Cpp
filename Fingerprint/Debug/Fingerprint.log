@@ -1,0 +1,9 @@
+﻿  Fingerprint.cpp
+Fingerprint.obj : error LNK2019: unresolved external symbol _WinBioOpenSession@28 referenced in function "long __cdecl EnrollSysPool(int,unsigned char)" (?EnrollSysPool@@YAJHE@Z)
+Fingerprint.obj : error LNK2019: unresolved external symbol _WinBioCloseSession@4 referenced in function "long __cdecl EnrollSysPool(int,unsigned char)" (?EnrollSysPool@@YAJHE@Z)
+Fingerprint.obj : error LNK2019: unresolved external symbol _WinBioLocateSensor@8 referenced in function "long __cdecl EnrollSysPool(int,unsigned char)" (?EnrollSysPool@@YAJHE@Z)
+Fingerprint.obj : error LNK2019: unresolved external symbol _WinBioEnrollBegin@12 referenced in function "long __cdecl EnrollSysPool(int,unsigned char)" (?EnrollSysPool@@YAJHE@Z)
+Fingerprint.obj : error LNK2019: unresolved external symbol _WinBioEnrollCapture@8 referenced in function "long __cdecl EnrollSysPool(int,unsigned char)" (?EnrollSysPool@@YAJHE@Z)
+Fingerprint.obj : error LNK2019: unresolved external symbol _WinBioEnrollCommit@12 referenced in function "long __cdecl EnrollSysPool(int,unsigned char)" (?EnrollSysPool@@YAJHE@Z)
+Fingerprint.obj : error LNK2019: unresolved external symbol _WinBioEnrollDiscard@4 referenced in function "long __cdecl EnrollSysPool(int,unsigned char)" (?EnrollSysPool@@YAJHE@Z)
+D:\PROJECTS\VS\cpp\Fingerprint\Debug\Fingerprint.exe : fatal error LNK1120: 7 unresolved externals
